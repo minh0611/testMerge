@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./new-module1.component.css']
 })
 export class NewModule1Component {
-
+  code () {
+    return 123;
+  }
 }
